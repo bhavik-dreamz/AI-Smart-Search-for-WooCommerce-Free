@@ -107,9 +107,9 @@ The Pro version includes additional features:
 ## Support
 
 For support, feature requests, or bug reports, please:
-1. Check the [documentation](https://your-docs-url.com)
-2. Submit an issue on [GitHub](https://github.com/your-repo)
-3. Contact support at support@your-domain.com
+1. Check the [documentation](https://DynamicDreamz.com)
+2. Submit an issue on [GitHub](mailto:bhavik@dynamicdreamz.com)
+3. Contact support at bhavik@dynamicdreamz.com
 
 ## Contributing
 
@@ -124,5 +124,5 @@ This plugin is licensed under the GPL v2 or later.
 
 ## Credits
 
-- Developed by [Your Company Name]
+- Developed by DynamicDreamz
 - Built with ❤️ for the WooCommerce community 
