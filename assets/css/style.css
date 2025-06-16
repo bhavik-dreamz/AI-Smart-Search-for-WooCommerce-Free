@@ -1,0 +1,160 @@
+/* Search Overlay */
+.ai-smartsearch-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 999999;
+    display: none;
+}
+
+.ai-smartsearch-overlay-content {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 100px auto 0;
+    padding: 20px;
+}
+
+.ai-smartsearch-search-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#ai-smartsearch-input {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#ai-smartsearch-input:focus {
+    border-color: #2271b1;
+}
+
+/* Search Results */
+.ai-smartsearch-results {
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.ai-smartsearch-results-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ai-smartsearch-result-item {
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.3s;
+}
+
+.ai-smartsearch-result-item:hover,
+.ai-smartsearch-result-item.active {
+    background-color: #f8f8f8;
+}
+
+.ai-smartsearch-result-image {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.ai-smartsearch-result-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.ai-smartsearch-result-content {
+    flex: 1;
+}
+
+.ai-smartsearch-result-content h3 {
+    margin: 0 0 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.ai-smartsearch-result-price {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Loading State */
+.ai-smartsearch-loading {
+    padding: 20px;
+    text-align: center;
+    color: #666;
+}
+
+/* No Results */
+.ai-smartsearch-no-results {
+    padding: 20px;
+    text-align: center;
+    color: #666;
+}
+
+/* Error State */
+.ai-smartsearch-error {
+    padding: 20px;
+    text-align: center;
+    color: #dc3232;
+}
+
+/* Pro Notice */
+.ai-smartsearch-pro-notice {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8f8f8;
+    border-left: 4px solid #2271b1;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Similar Products & Suggestions */
+.ai-smartsearch-section-title {
+    font-size: 24px;
+    margin: 30px 0 20px;
+    color: #333;
+}
+
+.ai-smartsearch-similar-products,
+.ai-smartsearch-suggestions {
+    margin: 30px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .ai-smartsearch-overlay-content {
+        margin: 50px auto 0;
+        padding: 10px;
+    }
+
+    .ai-smartsearch-result-item {
+        flex-direction: column;
+    }
+
+    .ai-smartsearch-result-image {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+} 
