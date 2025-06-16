@@ -34,6 +34,8 @@ class AI_Search_Lite {
      * Load dependencies
      */
     private function load_dependencies() {
+        require_once AI_SMARTSEARCH_PLUGIN_DIR . 'includes/SimilarProductsEngine.php';
+        require_once AI_SMARTSEARCH_PLUGIN_DIR . 'includes/SimilarProductsAPI.php';
         require_once AI_SMARTSEARCH_PLUGIN_DIR . 'includes/class-similar-products.php';
         require_once AI_SMARTSEARCH_PLUGIN_DIR . 'includes/class-smart-suggestions.php';
         require_once AI_SMARTSEARCH_PLUGIN_DIR . 'includes/class-hooks.php';
